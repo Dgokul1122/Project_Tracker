@@ -1,0 +1,18 @@
+.admi{
+    color:azure;
+    background-image: url("sea.jpg");
+    background-size:cover;
+}
+.butn{
+    width: 100px;
+    height: 30px;
+    background-color:transparent;
+    border-color: white;
+    border-style:groove;
+    font-weight: 30px;
+}
+.upage{
+    background-image: url("bck_lap.jpg");
+    background-size: cover;
+    color: white;
+}

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(5, 128, 50); 
+    
+  }
+  
+  .todo-title{
+    cursor:pointer;
+  }
+  .completed-todo { 
+    text-decoration: line-through;
+  }
+  .tab-list > span {
+    padding: 5px 8px;
+    border : 1px solid rgb(25, 5, 128);
+    border-radius:10px;
+    margin-right:20px;
+    cursor: pointer;
+  }
+  .tab-list>span.active {
+    background-color: rgb(5, 128, 52);
+    color:#fff;
+  }
+  .form{
+    font-weight:bold;
+    padding-top: 30px;
+    font-size: 40px;
+    width: 700px;
+    top:50%;
+    left:30%;
+  }
+  .login_form{
+    background-color: rgb(204, 119, 14);
+    margin-right: 25%;
+    margin-left: 20%;
+  }
+  .title{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0, 139, 0);
+    margin:15px 0;
+  }
+  .login-button{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(49, 208, 28);
+    color: aliceblue;
+  }
+  .final{
+    padding-top: 250px;
+    
+    padding-bottom: 815px;
+    background-image: url("sea.jpg");
+    background-size: cover;
+  }
+  .logout{
+    width: 130px;
+    height: 50px;
+    font-size: 25px;
+    background-color: skyblue;
+  }
+  .page{
+    background-color: black;
+    background-image: none;
+  }

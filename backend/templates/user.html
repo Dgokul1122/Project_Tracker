@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+ <head>
+    
+    <title>user page</title>
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/page.css' %}">
+ </head>
+ <body class="upage">
+    
+    <div>
+        <h1> Hello {{ user.username }} your role is user</h1>
+        <button class="butn">
+            <a href="http://localhost:3000/user">Projects</a>
+        </button>
+        <p>click above button to view the tasks assigned to you</p>
+    </div>
+        
+    
+ </body>
+ </html>

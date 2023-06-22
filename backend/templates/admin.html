@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+ <head>
+    
+    <title>admin page</title>
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/page.css' %}">
+ </head>
+ <body class="admi">
+    <div >
+        <h1> Hello {{ user.username }} your role is admin</h1>
+        <button class="butn">
+            <a href="http://localhost:3000">Projects</a>
+        </button>
+        <p>click above button to assign tasks and view progress</p>
+    </div>
+        
+    
+ </body>
+ </html>
